@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page do Messi</title>
+  <link rel="icon" type="image/png" href="assets/img/download.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <style>
+    .menu-content h1 a {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-content h1 img {
+      margin-right: 20px;
+    }
+
+    .menu-content nav ul li a {
+      color: rgb(240, 231, 244);
+      border: 2px solid rgba(197, 110, 211, 0);
+      padding: 18px 30px;
+      border-radius: 30px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .menu-content nav ul li a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(247, 0, 185);
+    }
+  </style>
+
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside id="logo" class="menu rosa-bg">
+    <div class="main-content menu-content">
+      <h1><a href="#intro">Messi</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#top3">top 3</a></li>
+          <li><a href="#grid-one">grid-one</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#pricing">pricing</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Parte 3 -->
+  <div id="intro" class="menu-spacing"></div>
+  <section class="intro main1-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-white-color">
+        <h2>Conheça a história de Messi</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yqnqbvRYO5o?si=hKUKgBeiyvbFnZeI"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <div class="banner">
+        <img src="bannerul/assets/img/Email Header - Class.jpeg" id="bannerImage" alt="banner 1">
+      </div>
+
+
+  </section>
+  <!-- parte 3 2.0 -->
+  <section id="top3" class="main2-bg ">
+    <div class="main-content top3-content">
+      <h2> melhores Momentos </h2>
+      <p>Messi tem uma carreira repleta de momentos incríveis. Aqui estão os três momentos mais memoráveis de sua
+        carreira até agora.
+        Começaremos com sua estreia no Barcelona, seguida pela icônica temporada 2011-2012 e, por fim, seu
+        impressionante recorde de gols.
+        Explore cada momento para entender melhor a grandeza deste jogador.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XckGujMPURg?si=juoGJtyf24F7w7Ix"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
+  <!-- parte 4 -->
+  <section id="grid-one" class="grid-one main3-bg ">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">História de Messi</h2>
+      <p class="grid-description">Uma breve descrição sobre a história de Messi.</p>
+      <div class="grid">
+        <article>
+          <h3>Início</h3>
+          <p>Lionel Messi começou sua jornada no futebol em uma idade jovem, mostrando um talento excepcional desde o
+            início.</p>
+        </article>
+        <article>
+          <h3>Consagração no Barcelona</h3>
+          <p>Sua transferência para o Barcelona marcou o início de uma era de dominação, onde ele conquistou inúmeros
+            troféus e estabeleceu recordes inéditos.</p>
+        </article>
+        <article>
+          <h3>Legado</h3>
+          <p>O legado de Messi vai além dos campos de futebol. Sua influência no esporte e na cultura popular é
+            indiscutível, tornando-o uma figura verdadeiramente global.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- part 4.2 -->
+  <section id="gallery" class="grid-one main4-bg ">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria de Messi</h2>
+      <p class="grid-description">Explore momentos icônicos na carreira de Messi.</p>
+      <div class="grid">
+        
+        <div class="gallery-item">
+          <img src="assets/img/images.jpeg" width="" height="" onclick="openModal('assets/img/images.jpeg')">  
+          <p>"Messi na final da Copa do Mundo"</p>
+        </div>
+       
+         <div class="gallery-item">
+          <img src="assets/img/000-33zl49h.webp" width="" height="200" onclick="openModal('assets/img/000-33zl49h.webp')">  
+          <p>"Messi em entrevista após partida"</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/img/361392.jpeg" width="" height="" onclick="openModal('assets/img/361392.jpeg')" >  
+          <p>"Messi na final da Copa do Mundo"</p>
+        </div>
+       
+        <!-- <div class="gallery-item">
+          <img src="assets/img/images.jpeg" width="" height="" onclick="openModal('assets/img/images.jpeg')">  
+        </div>
+        </div>
+        <p>"Messi na final da Copa do Mundo"</p> -->
+
+      <!-- <div class="gallery-item">
+        <img src="assets/img/000-33zl49h.webp" width="" height="200" onclick="openModal('assets/img/000-33zl49h.webp')">
+      </div>
+      <p>"Messi em entrevista após partida"</p>
+      </div> -->
+
+  </div>
+</div>
+</div>
+  </section>
+  <!-- parte da tabela -->
+  <section id="pricing" class="t5-bg section">
+    <div class="main-content top3-content">
+      <h2>Prêmios e Conquistas</h2>
+
+
+      <p><strong>Confira os prêmios e conquistas que fazem parte do impressionante currículo de Lionel Messi.</strong>
+      </p>
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de Prêmios de Messi</caption>
+          <thead>
+            <tr>
+              <th>Ano</th>
+              <th>Prêmio</th>
+              <th>Competição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2009</td>
+              <td>Bola de Ouro</td>
+              <td>Campeonato Espanhol</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>Bola de Ouro</td>
+              <td>Liga dos Campeões da UEFA</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Bola de Ouro</td>
+              <td>Copa América</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>7</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- Parte Contact -->
+
+  <div id="contact" class="menu-spacing"></div>
+  <section class="intro t4-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma pergunta sobre Messi ou quer compartilhar sua admiração por este grande jogador? Entre em contato
+          conosco!</p>
+      </div>
+   
+    <div class="intro-img">
+    </div>
+
+    
+    <form id="form">
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend></legend>
+
+
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="name" id="first-name" placeholder="Your first name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+    </form>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Wszx1Sc8T2WyNLiOy");
+      })();
+    </script>
+  
+    <script>
+      document.getElementById('form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        emailjs.sendForm('service_y6zcjsp', 'template_uz8pdyw', this)
+          .then(function () {
+            alert('Email enviado com sucesso!');
+          }, function (error) {
+            alert('Erro ao enviar o email:' + JSON.stringify(error));
+          });
+      });
+    </script>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a href=""><span class="span"> &copy;</span> 2024 Exemplo de Site. Todos os direitos reservados. oscar.</a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+  <div class="modal" id="myModal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+  <script src="BannerUL/assets/js/script.js"></script>
+</body>
+
+</html>

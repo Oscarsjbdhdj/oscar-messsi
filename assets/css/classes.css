@@ -1,0 +1,75 @@
+.main-bg {
+  background-image: url('../img/main-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.main1-bg {
+  background-image: url('../img/inter-miami-messi-44-titulos.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.main2-bg {
+  background-image: url('../img/bfbe11b7449a6dbba0aa63eb79f8bafa.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.main3-bg{
+  background-image: url('../img/um-fundo-rosa-com-um-fundo-roxo_455711-2795.avif');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.main4-bg{
+  background-image: url('../img/ca45f7b1087c2782319e5f63c4e6c0b1.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.t4-bg{
+  background-image: url('../img/hype-messi-4k-ultra-hd-cy8c7jsaxcz0l9wn.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.t5-bg{
+  background-image: url('../img/lionel-messi-no-campo-de-inter-miami-abstrato-tocando-para-usando-ai-285227001.webp');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);}
+
+.white-bg {
+  background: var(--white-color);
+}
+
+.rosa-bg {
+  background: var(--rosa-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  /* 120rem = 1200px */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  padding: 10rem var(--gap);
+  /* correção */
+}
+
+.section {
+  min-height: 100vh;
+  /* parte 3/4 */
+  /* color: var(--primary-color); */
+}
+
+/* parte 3 */
+.menu-spacing {
+  height: 6.5rem;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
